@@ -130,10 +130,10 @@ class ReactCodeInput extends Component {
         ? Number(e.target.dataset.id) + 1
         : e.target.dataset.id];
 
-      if (newTarget) {
+      /*if (newTarget) {
         newTarget.focus();
         newTarget.select();
-      }
+      }*/
 
       fullValue = input.join('');
 
